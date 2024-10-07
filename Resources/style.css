@@ -13,17 +13,40 @@ html, body{
     overflow-x: hidden;
 }
 
+/*-------------------*/
+/*---- Multi-use ----*/
+/*-------------------*/
+
+h1, h2, h3{
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.row{
+    max-width: 1140;
+    margin: 0 auto;
+}
+
+h1{
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+
+/*----------------*/
+/*---- Header ----*/
+/*----------------*/
+
+
 header{
     background-image: linear-gradient(#000000b3, #000000b3), url('Images/Omnifood\ Contents/hero.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-}
-
-h1, h2, h3{
-    font-weight: 300;
-    text-transform: uppercase;
 }
 
 .nav-bar .row{
@@ -37,12 +60,6 @@ h1, h2, h3{
     justify-content: space-between;
 }
 
-
-.row{
-    max-width: 1140;
-    margin: 0 auto;
-}
-
 .hero-text-box{
     width: 1140px;
     position: absolute;
@@ -52,13 +69,7 @@ h1, h2, h3{
     color: #ffffff;
 }
 
-h1{
-    margin-top: 0;
-    color: #ffffff;
-    font-size: 240%;
-    word-spacing: 4px;
-    letter-spacing: 1px;
-}
+/*---- Header menu ----*/
 
 .main-img{
     display: flex;
@@ -92,6 +103,8 @@ h1{
 .main-nav li a:active{
     border-bottom: 2px solid #cf6d17;
 }
+
+/*---- Header buttons ----*/
 
 .btn{
     display: inline-block;
@@ -127,8 +140,17 @@ h1{
     color: #ffffff;
 }
 
-/* -------- Features -------- */
+/*-------------------------*/
+/*---- Features section----*/
+/*-------------------------*/
 
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
 
 h2:after{
     display: block;
@@ -144,15 +166,7 @@ section{
     padding: 80px 0;
 }
 
-h2{
-    font-size: 180%;
-    word-spacing: 2px;
-    text-align: center;
-    letter-spacing: 1px;
-    margin-bottom: 30px;
-}
-
-/* --------- Paragraphs -------- */
+/* ---- Features paragraphs & icons ---- */
 
 .section-features .long-copy{
     margin-bottom: 30px;
@@ -165,14 +179,10 @@ h2{
     font-weight: 300;
 }
 
-.box p{
-    font-size: 90%;
-    line-height: 145%;
-    font-weight: 300;
+.boxes{
+    width: 1140px;
+    margin: auto;
 }
-
-
-
 
 .col:first-child{
     margin-left: 0;
@@ -192,6 +202,12 @@ h2{
     padding: 1%;
 }
 
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+    font-weight: 300;
+}
+
 h3{
     font-size: 110%;
     margin-bottom: 15px;
@@ -203,9 +219,4 @@ h3{
     color: #e67e22;
     margin-bottom: 10px;
     --ionicon-stroke-width: 20px;                       /*controls line thickness of the icons*/
-}
-
-.boxes{
-    width: 1140px;
-    margin: auto;
 }
