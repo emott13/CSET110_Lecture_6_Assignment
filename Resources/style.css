@@ -347,6 +347,10 @@ h3{
 /*---- Cities Section ----*/
 /*------------------------*/
 
+.section-cities{
+    overflow: hidden;
+}
+
 .box img{
     width: 100%;
     height: auto;
@@ -379,3 +383,49 @@ h3{
     margin-top: -4px;
 }
 
+
+/*------------------------------*/
+/*---- Testimonials Section ----*/
+/*------------------------------*/
+
+.section-testimonials{
+    overflow: hidden;
+    background-image: linear-gradient(#000000cc, #000000cc), url('Images/Omnifood\ Contents/back-customers.jpg');
+    background-size: cover;
+    color: #ffffff;
+    background-attachment: fixed;
+}
+
+.span-1-of-3{
+    width: 32.26%;
+}
+
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+}
+
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+    margin-top: 40px;
+}
+
+blockquote:before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite img{
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
