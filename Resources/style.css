@@ -90,7 +90,7 @@ header{
     height: 100vh;
 }
 
-.nav-bar .row{
+.nav-bar #nav-row{
     width: 1140px;
     position: absolute;
     top: 7%;
@@ -110,7 +110,7 @@ header{
     color: #ffffff;
 }
 
-/*---- Header menu ----*/
+/*---- Header Menu ----*/
 
 .main-img{
     display: flex;
@@ -183,7 +183,7 @@ header{
 
 
 /*-------------------------*/
-/*---- Features section----*/
+/*---- Features Section----*/
 /*-------------------------*/
 
 .section-features .long-copy{
@@ -232,7 +232,7 @@ h3{
 
 
 /*------------------------*/
-/*---- Favorite meals ----*/
+/*---- Favorite Meals ----*/
 /*------------------------*/
 
 .favorite-meals{
@@ -272,7 +272,7 @@ h3{
 
 
 /*------------------------------*/
-/*---- How it works section ----*/
+/*---- How It Works Section ----*/
 /*------------------------------*/
 
 .section-steps{
@@ -341,3 +341,41 @@ h3{
     width: auto;
     margin-right: 10px;
 }
+
+
+/*------------------------*/
+/*---- Cities Section ----*/
+/*------------------------*/
+
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature{
+    margin-bottom: 5px;
+}
+
+.city-feature a:link, 
+.city-feature a:visited, 
+.city-feature a:hover {
+    color: #e67e22;
+}
+
+#row-fix{
+    width: 1140px;
+}
+
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
