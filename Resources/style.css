@@ -7,7 +7,7 @@
 html, body{
     color: #555;
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
@@ -27,6 +27,10 @@ html, body{
 /*---- Multi-use ----*/
 /*-------------------*/
 
+section{
+    padding: 80px 0;
+}
+
 h1, h2, h3{
     font-weight: 300;
     text-transform: uppercase;
@@ -43,6 +47,34 @@ h1{
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
+}
+
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+h2:after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67e22;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+}
+
+.col:first-child{
+    margin-left: 0;
+}
+
+.col{
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
 }
 
 
@@ -154,30 +186,6 @@ header{
 /*---- Features section----*/
 /*-------------------------*/
 
-h2{
-    font-size: 180%;
-    word-spacing: 2px;
-    text-align: center;
-    letter-spacing: 1px;
-    margin-bottom: 30px;
-}
-
-h2:after{
-    display: block;
-    height: 2px;
-    width: 100px;
-    background-color: #e67e22;
-    content: " ";
-    margin: auto;
-    margin-top: 30px;
-}
-
-section{
-    padding: 80px 0;
-}
-
-/* ---- Features paragraphs & icons ---- */
-
 .section-features .long-copy{
     margin-bottom: 30px;
 }
@@ -192,16 +200,6 @@ section{
 .boxes{
     width: 1140px;
     margin: auto;
-}
-
-.col:first-child{
-    margin-left: 0;
-}
-
-.col{
-    display: block;
-    float: left;
-    margin: 1% 0 1% 1.6%;
 }
 
 .span-1-of-4{
@@ -273,3 +271,73 @@ h3{
 }
 
 
+/*------------------------------*/
+/*---- How it works section ----*/
+/*------------------------------*/
+
+.section-steps{
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+.rows{
+    max-width: 1140;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.size h2{
+    letter-spacing: 1px;
+}
+
+.span-1-of-2{
+    width: 49.2%;
+}
+
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 1.6%;
+    margin-top: 30px;
+}
+
+.steps-box:last-child{
+    padding-left: 1.6%;
+    margin-top: 70px;
+}
+
+.app-screen{
+    width: 24%;
+}
+
+.works-step{
+    margin-bottom: 50px;
+    width: 520px;
+}
+
+.works-step:last-of-type{
+    margin-bottom: 80px;
+}
+
+.works-step div{
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+.btn-app:link,
+.btn-app:visited{
+    border: 0;
+}
+
+.btn-app img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
